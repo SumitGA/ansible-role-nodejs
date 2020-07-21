@@ -1,6 +1,6 @@
 ---
 - hosts: development
-  remote_user: my_remote_user
+  remote_user: ubuntu #remote username
   become: yes
   become_method: sudo
   vars:
@@ -10,7 +10,7 @@
     - include: tasks/prerequisites.yml
 
     #Install MongoDB
-    - include: tasks/mongodb.yml
+    # - include: tasks/mongodb.yml
 
     #Install Node.js
     - include: tasks/nodejs.yml

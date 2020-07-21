@@ -21,6 +21,7 @@
   with_items:
     - build-essential
     - nodejs
+    - npm 
 
 - name: Node.js | Install PM2 globally
   npm: name={{item}} state=present global=yes

@@ -1,2 +1,3 @@
 [development]
-mydevserver.com
+3.21.76.189  ansible_ssh_user=ubuntu
+
